@@ -88,7 +88,7 @@ async function fetchData(option, source, apikey,name) {
       createTask(data.articles, option, name);
     }
     else{
-      console.log("some error occured", this.status);
+      main.innerHTML = `<h2>Please upgrade your API key to use our service in business.</h2>`;
     }
     
 }
